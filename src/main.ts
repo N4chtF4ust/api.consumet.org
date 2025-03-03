@@ -1,8 +1,4 @@
 require('dotenv').config();
-const apiKey = process.env.API_KEY;
-
-
-require('dotenv').config();
 import Redis from 'ioredis';
 import Fastify from 'fastify';
 import FastifyCors from '@fastify/cors';
